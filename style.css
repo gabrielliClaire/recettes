@@ -1,0 +1,40 @@
+.title {
+    text-align: center; 
+    font-family: 'Henny Penny', cursive; 
+    font-weight: 800; 
+    font-size: 1.5cm; color: #ec6c03; 
+    text-shadow: 1px 1px 0 #e26203 , 2px 2px 0 #c85602 , 3px 3px 0 #aa4902 , 4px 4px 0 #6c3201
+}
+.pop {
+    color: #556b2f; 
+    font-weight:600; 
+    font-size: 1cm; 
+    font-family: 'Amita', cursive; 
+    text-align: center; 
+    text-shadow: 1px 1px 0 #678238 , 2px 2px 0 #769540 , 3px 3px 0 #8cb14b;
+}
+.paf {
+    color: #c51515; 
+    font-family: 'Fresca', sans-serif; 
+    font-size: 0.6cm; font-weight: 600; 
+}
+.mom{
+    position: relative;
+    text-align: center;
+}
+.jog{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); text-align: center;
+}
+.loop{
+    color: #c51515; 
+    font-family: 'Fresca', sans-serif; 
+    font-size: 0.6cm; font-weight: 600; 
+    list-style: none;
+}
+.font{   
+    background: rgb(74,191,32);
+    background: linear-gradient(0deg, rgba(74,191,32,0.27072827421984413) 0%, rgba(239,242,128,0.6348739324831495) 100%);  
+}
