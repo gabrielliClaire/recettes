@@ -2,50 +2,104 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amita&family=Fresca&family=Henny+Penny&family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cabin+Sketch&family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
        <title> 
         Recette pâte à crêpes
        </title> 
     </head> 
 
-    <body class="fond"> 
-        <h1 class="title">
-            Crêpes: recette rapide
-        </h1> 
-        
-        <div class="mom">
-            <img src="https://www.la-bolee.fr/upload/img/galerie_photo/40/l/ingredients-crepes-1448384679.png">
-        </div> 
-
-        <div class="jog">
-            <h4 class="pop">
-                Ingrédients:
-            </h4>
-                <ul class="loop">
-                <li>farine 250g</li>
-                <li>oeufs 4</li>
-                <li>lait 50cl</li>
-                <li>sel 1 pincé</li>
-                <li>sucre 2c à s</li>
-                <li>beurre 50g</li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="pop">
-                Préparation:
-            </h4>
-                <ol class="paf">
-                <li>mettre dans un saladier la farine le sucre et le sel</li>
-                <li>faire un puit et y versez les oeufs</li>
-                <li>mélanger doucement<br>quand le mélange devient épais, ajouter le lait froid petit à petit</li>
-                <li>quand tout le lait est mélangé la pâte doit être fluide. si elle paraît trop épaisse, rajoutez un peu de lait.<br>ajouter le beurre fondu, mélangez bien</li>
-                <li>faites cuire les crêpes dans une poêle chaude légère huilée<br>verser une petite louche de pâte dans la poêle, laissez cuire environ 2 min par côté</li> 
-
-            </ol>
-        </div>
+    <body class="content"> 
+        <header>
+             <h1 class="content-title">
+                Mes recettes sucrées
+             </h1>  
+        </header>
+        <main class="content__recipe__card"> 
+            <article class="card__recipe crepe"> 
+                <h2 class="recipe__title">
+                    Pâte à crèpes
+                </h2>    
+                <div class="image">
+                    <img src="#">
+                </div> 
+                <div class="ingredient__title">
+                    <h3>
+                        Ingrédients:
+                    </h3>
+                </div>
+                <div class="ingredient__list">
+                    <ul >
+                        <li>farine 250g</li>
+                        <li>oeufs 4</li>
+                        <li>lait 50cl</li>
+                        <li>sel 1 pincé</li>
+                        <li>sucre 2c à s</li>
+                        <li>beurre 50g</li>
+                    </ul>
+                </div>            
+                <div class="preparation">
+                    <h4 class="preparation__title">
+                        Préparation:
+                    </h4>
+                    <ol class="preparation__text">
+                        <li>mettre dans un saladier la farine le sucre et le sel
+                        </li>
+                        <li>faire un puit et y versez les oeufs                           
+                        </li>
+                        <li>mélanger doucement<br>quand le mélange devient épais, ajouter le lait froid petit à petit
+                        </li>
+                        <li>quand tout le lait est mélangé la pâte doit être fluide. si elle paraît trop épaisse, rajoutez un peu de lait.<br>ajouter le beurre fondu, mélangez bien
+                        </li>
+                        <li>faites cuire les crêpes dans une poêle chaude légère huilée<br>verser une petite louche de pâte dans la poêle, laissez cuire environ 2 min par côté
+                        </li> 
+                    </ol>
+                </div>
+            </article>
+            <article class="card__recipe pancake"> 
+                <h2 class="recipe__title">
+                    Pancakes
+                </h2>    
+                <div class="image">
+                    <img src="#">
+                </div> 
+                <div class="ingredient__title">
+                    <h3>
+                        Ingrédients:
+                    </h3>
+                </div>
+                <div class="ingredient__list">
+                    <ul >
+                        <li>farine 300g</li>
+                        <li>oeufs 2</li>
+                        <li>lait 35cl</li>
+                        <li>sel 1 pincé</li>
+                        <li>sucre 50g</li>
+                        <li>beurre 50g</li>
+                        <li>levure chimique 2 sachets</li>
+                    </ul>
+                </div>            
+                <div class="preparation">
+                    <h4 class="preparation__title">
+                        Préparation:
+                    </h4>
+                    <ol class="preparation__text">
+                        <li>
+                            Mélanger la farine, la levure et le sucre dans un grand saladier. Faire fondre le beurre dans le lait légèrement tiédi et verser sur le mélange précédent.
+                        </li>
+                        <li>
+                            Ajouter les œufs légèrement battus et mélanger au fouet. Laisser reposer 30 minutes à température ambiante.
+                        </li>
+                        <li>
+                            Chauffer une grande poêle à revêtement antiadhésif, la badigeonner d’huile et y déposer une petite louche de pâte par pancake. Cuire 1 minute environ et retourner le pancake lorsque de petites bulles commencent à se former à la surface. Laisser dorer le second côté.
+                        </li>
+                    </ol>
+                </div>
+            </article>  
+        </main>
     </body>
 </html>

@@ -1,40 +1,88 @@
-.title {
-    text-align: center; 
-    font-family: 'Henny Penny', cursive; 
-    font-weight: 800; 
-    font-size: 1.5cm; color: #ec6c03; 
-    text-shadow: 1px 1px 0 #e26203 , 2px 2px 0 #c85602 , 3px 3px 0 #aa4902 , 4px 4px 0 #6c3201
+.content {
+    background-color: #e4d3bc;
+    margin: 2vb;
 }
-.pop {
-    color: #556b2f; 
-    font-weight:600; 
-    font-size: 1cm; 
-    font-family: 'Amita', cursive; 
-    text-align: center; 
-    text-shadow: 1px 1px 0 #678238 , 2px 2px 0 #769540 , 3px 3px 0 #8cb14b;
+.content__recipe__card {
+    display: flex;
+    flex-wrap: row;
 }
-.paf {
-    color: #c51515; 
-    font-family: 'Fresca', sans-serif; 
-    font-size: 0.6cm; font-weight: 600; 
-}
-.mom{
-    position: relative;
+
+.content-title {
     text-align: center;
+    font-weight: 800;
+    color: #ec6c03;
+    font-family: 'Cinzel Decorative', cursive;
+    line-height: 3;
+    font-size: 5rem;
 }
-.jog{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); text-align: center;
+.recipe__title {
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    color: #83491a;
 }
-.loop{
-    color: #c51515; 
-    font-family: 'Fresca', sans-serif; 
-    font-size: 0.6cm; font-weight: 600; 
-    list-style: none;
+.card__recipe {
+    border: 3px solid #230c0f;
+    margin: 3%;
+    padding: 1%;
+    background-image: url("./images/crêpes.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 49vw;
+
+
+    
 }
-.font{   
-    background: rgb(74,191,32);
-    background: linear-gradient(0deg, rgba(74,191,32,0.27072827421984413) 0%, rgba(239,242,128,0.6348739324831495) 100%);  
+.ingredient__title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    line-height: 3;
+    color: #83491a;
+}
+
+.ingredient__list {
+    padding: 3px;
+    margin: 3px;
+    width: 98%;
+    color: #354234;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.preparation__title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    line-height: 3;
+    color: #83491a;
+}
+.preparation__text {
+    padding: 3px;
+    margin: 3px;
+    width: 98%;
+    color: #354234;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.crepe {
+    background-image: url("./images/crêpes.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pancake {
+    background-image: url("./images/pancakes.jpg");
+    background-size: cover;
+    background-position: center;
 }
